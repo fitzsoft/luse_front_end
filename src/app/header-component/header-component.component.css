@@ -1,0 +1,11 @@
+.bg-dark {
+  background-color: #209b60!important;
+  font-family: 'Cardo', serif;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+    height: 40px;
+  }
+}

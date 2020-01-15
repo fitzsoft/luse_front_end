@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+    height: 50px;
+
+  }
+}
+.bg-dark {
+  background-color: #ffffff!important;
+}
+
+navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #26272b;
+  border-bottom: 2px solid #209b60;
+  font-family: 'Cardo', serif;
+  font-weight: bold;
+
+
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #26272b;
+  padding: 10px 13px;
+  font-family: 'Cardo', serif;
+  font-weight: bold;
+
+}

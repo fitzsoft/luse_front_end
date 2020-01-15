@@ -1,0 +1,65 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <app-logo></app-logo>
+    </div>
+    <div class="col-md-10">
+      <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto navbar-right">
+            <button class="nav-link " mat-button [matMenuTriggerFor]="beforeMenu">About LuSE</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+
+            <button class="nav-link " mat-button [matMenuTriggerFor]="beforeMenu">LuSE CSD</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+
+            <button class="nav-link " mat-button [matMenuTriggerFor]="beforeMenu">Investor Information</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+
+            <button class="nav-link " mat-button [matMenuTriggerFor]="beforeMenu">Data Services</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+
+            <button class="nav-link " mat-button [matMenuTriggerFor]="beforeMenu">Media and Communications</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+            
+            <button class="nav-link " mat-button [matMenuTriggerFor]="beforeMenu">Market Reports</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+
+            <button class="nav-link " mat-button [matMenuTriggerFor]="beforeMenu">Alternative Markets</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
